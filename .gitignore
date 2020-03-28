@@ -14,3 +14,7 @@ server.pid
 *.eml
 /dist/
 .cache
+
+.idea
+.env
+.sbt-version
