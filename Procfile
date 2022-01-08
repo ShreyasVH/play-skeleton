@@ -1,0 +1,1 @@
+web: target/universal/stage/bin/play-skeleton -jvm-debug "8021"
