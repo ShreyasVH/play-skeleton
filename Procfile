@@ -1,1 +1,1 @@
-web: target/universal/stage/bin/play-skeleton -jvm-debug "8021"
+web: target/universal/stage/bin/play-skeleton -Dhttp.address=0.0.0.0 -Dhttp.port=${PORT} -jvm-debug "8021"
