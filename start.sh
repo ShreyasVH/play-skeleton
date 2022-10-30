@@ -1,1 +1,1 @@
-sbt -jvm-debug "8000" -Dhttps.port="10000" "run 9000";
+sbt "run 9006"

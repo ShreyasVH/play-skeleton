@@ -1,16 +1,11 @@
 package controllers;
 
+import play.mvc.Controller;
 import play.mvc.Result;
-import play.libs.Json;
 import play.mvc.Http;
 
-public class IndexController extends BaseController
+public class IndexController extends Controller
 {
-	public Result index()
-	{
-		return ok("INDEX");
-	}
-
 	public Result get(String input)
 	{
 		return ok("GET REQUEST with input: " + input);
