@@ -1,1 +1,1 @@
-sbt "run $PORT";
+sbt "run $PORT"

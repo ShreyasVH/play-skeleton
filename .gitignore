@@ -1,4 +1,5 @@
 .idea
-.env
 .envrc
 target
+project/target
+project/project
