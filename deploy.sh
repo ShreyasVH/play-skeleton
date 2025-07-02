@@ -1,7 +1,8 @@
 source $HOME/.zshrc
 cd $HOME/workspace/myProjects/java/play/play-skeleton
-source .envrc
+# source .envrc
 echo $PATH
+ls
 
 
 if ! lsof -i :$PORT > /dev/null; then
