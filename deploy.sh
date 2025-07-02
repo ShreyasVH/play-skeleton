@@ -1,5 +1,8 @@
 source $HOME/.zshrc
-cd $HOME/workspace/myProjects/play/play-skeleton
+cd $HOME/workspace/myProjects/java/play/play-skeleton
+source .envrc
+echo $PATH
+
 
 if ! lsof -i :$PORT > /dev/null; then
     pwd
