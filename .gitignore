@@ -5,6 +5,7 @@ project/target
 project/project
 .DS_Store
 dist/
+.bsp/
 compile.log
 compile2.log
 server.log
